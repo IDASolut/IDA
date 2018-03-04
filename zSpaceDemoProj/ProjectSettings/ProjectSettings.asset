@@ -42,7 +42,7 @@ PlayerSettings:
   disableDepthAndStencilBuffers: 0
   defaultIsFullScreen: 1
   defaultIsNativeResolution: 1
-  runInBackground: 0
+  runInBackground: 1
   captureSingleScreen: 0
   Override IPod Music: 0
   muteOtherAudioSources: 0
@@ -192,7 +192,10 @@ PlayerSettings:
       m_Width: 128
       m_Height: 128
   m_BuildTargetBatching: []
-  m_BuildTargetGraphicsAPIs: []
+  m_BuildTargetGraphicsAPIs:
+  - m_BuildTarget: WindowsStandaloneSupport
+    m_APIs: 010000000200000011000000
+    m_Automatic: 0
   webPlayerTemplate: APPLICATION:Default
   m_TemplateCustomTags: {}
   wiiUTitleID: 0005000011000000
@@ -461,7 +464,7 @@ PlayerSettings:
   PSM::VR::enable: 0
   PSP2::VR::enable: 0
   SamsungTV::VR::enable: 0
-  Standalone::VR::enable: 0
+  Standalone::VR::enable: 1
   Tizen::VR::enable: 0
   WebGL::VR::enable: 0
   WebPlayer::VR::enable: 0
@@ -519,7 +522,7 @@ PlayerSettings:
   PSP2::VR::enabledDevices: []
   SamsungTV::VR::enabledDevices: []
   Standalone::VR::enabledDevices:
-  - Oculus
+  - stereo
   Tizen::VR::enabledDevices: []
   WebGL::VR::enabledDevices: []
   WebPlayer::VR::enabledDevices: []
